@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: conic-gradient(red, orange, yellow, green, blue);
+    /* background-color: blueviolet; */
+}
+
+.container {
+    background-color: white;
+    margin: 150px 100px 150px 100px;
+    border-radius: 20px;
+}
+
+.guess-container {
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.number{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.number p {
+    font-size: 30px;
+}
+
+#guessInput:focus {
+    outline: none;
+    color: green;
+    font-size: 30px;
+}
+
+.message, .chance-left {
+    color: orange;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.button button {
+    background-color: red;
+    padding: 15px 50px 15px 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
